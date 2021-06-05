@@ -15,6 +15,23 @@ export default function Home() {
       <main>
         <LogoGrid title="I've built for" data={builtFor} />
         <LogoGrid title="I've worked for" data={workedFor} />
+
+        <h3>What they say about me</h3>
+        <blockquote>"If you're looking for a world-class web developer then Biggs could well be your man. He's an absolute pleasure to work with and immediately understands not only the requirements of the project but also of the business as a whole.<br/><br/>Whilst he has a brilliant grasp of the technologies involved in web development he also manages to apply them pragmatically rather than with rigid dogma."</blockquote>
+        <p>Mark Wright, Executive Producer at R/GA</p>
+
+        <h3>How to hire me</h3>
+        <p>
+          Email me at <a href="mailto:biggs@devillion.com">biggs@devillion.com</a><br />
+          Tweet me at <a href="https://twitter.com/biggs_t" target="_blank">@biggs_t</a><br />
+          Send me a message on <a href="//uk.linkedin.com/in/biggsthorarensen/" target="_blank">LinkedIn</a>
+        </p>
+
+        <h3>Online CV</h3>
+        <p>
+        <a href="https://docs.google.com/document/d/1tItByB6kCq7_83ybumSa6-hiAhhFO6ELBQl1WeBxPf8/edit?usp=sharing" target="_blank">View my latest CV on Google Docs</a>
+        </p>
+
       </main>
 
     </div>
