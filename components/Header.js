@@ -1,10 +1,13 @@
 import styles from '../styles/Header.module.css'
 
-const Header = () => {
+const Header = ({title, subtitle}) => {
     return (
         <div>
-            <h1 className={styles.h1}>Biggs</h1>
-            <h2 className={styles.h2}>Senior Front End Developer</h2>
+            <h1 className={styles.h1}>{title}</h1>
+            {subtitle.length
+                ? <h2 className={styles.h2}>{subtitle}</h2>
+                : null
+            }
         </div>
     )
 }
