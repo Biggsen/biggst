@@ -14,8 +14,3 @@ a {
 * {
   box-sizing: border-box;
 }
-
-img {
-  height: auto;
-  width: 100%;
-}

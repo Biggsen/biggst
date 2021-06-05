@@ -1,4 +1,7 @@
 import Head from 'next/head'
+import LogoGrid from '../components/LogoGrid'
+import { builtFor } from '../data/builtFor'
+import { workedFor } from '../data/workedFor'
 
 export default function Home() {
   return (
@@ -10,6 +13,8 @@ export default function Home() {
       </Head>
 
       <main>
+        <LogoGrid title="I've built for" data={builtFor} />
+        <LogoGrid title="I've worked for" data={workedFor} />
       </main>
 
     </div>
