@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Profile from '../components/Profile'
 import LogoGrid from '../components/LogoGrid'
+import Testimonial from '../components/Testimonial'
 import { builtFor } from '../data/builtFor'
 import { workedFor } from '../data/workedFor'
 import styles from '../styles/Home.module.css'
@@ -15,18 +16,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link href="//fonts.googleapis.com/css?family=Rambla:400,700" rel="stylesheet" type="text/css" />
       </Head>
-
       <Header title="Biggs" subtitle="Senior Front End Developer" />
       <Profile />
-
-      <main>
-        <LogoGrid title="I've built for" data={builtFor} />
-        <LogoGrid title="I've worked for" data={workedFor} />
-
-        <h3>What they say about me</h3>
-        <blockquote>"If you're looking for a world-class web developer then Biggs could well be your man. He's an absolute pleasure to work with and immediately understands not only the requirements of the project but also of the business as a whole.<br/><br/>Whilst he has a brilliant grasp of the technologies involved in web development he also manages to apply them pragmatically rather than with rigid dogma."</blockquote>
-        <p>Mark Wright, Executive Producer at R/GA</p>
-
+      <LogoGrid title="I've built for" data={builtFor} />
+      <LogoGrid title="I've worked for" data={workedFor} />
+      <Testimonial />
+      <div>
         <h3>How to hire me</h3>
         <p>
           Email me at <a href="mailto:biggs@devillion.com">biggs@devillion.com</a><br />
@@ -38,9 +33,7 @@ export default function Home() {
         <p>
         <a href="https://docs.google.com/document/d/1tItByB6kCq7_83ybumSa6-hiAhhFO6ELBQl1WeBxPf8/edit?usp=sharing" target="_blank">View my latest CV on Google Docs</a>
         </p>
-
-      </main>
-
+      </div>
     </div>
   )
 }
