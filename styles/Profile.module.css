@@ -1,3 +1,16 @@
 .container {
-    display:  flex;
+    display: flex;
+    margin-top: 20px;
+}
+
+.content {
+    padding-right: 10px;
+}
+
+.content p {
+    margin-top: 0;
+}
+
+.image {
+    min-width: 160px;
 }
