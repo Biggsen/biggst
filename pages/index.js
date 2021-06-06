@@ -22,7 +22,7 @@ export default function Home() {
       <LogoGrid title="I've worked for" data={workedFor} />
       <Testimonial />
       <div>
-        <h3 className={styles.heading}>How to hire me</h3>
+        <h3 className={styles.headingHowToHire}>How to hire me</h3>
         <p className={styles.paragraph}>
           Email me at <a href="mailto:biggs@devillion.com">biggs@devillion.com</a><br />
           Tweet me at <a href="https://twitter.com/biggs_t" target="_blank">@biggs_t</a><br />

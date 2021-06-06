@@ -3,15 +3,17 @@
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 20px;
     grid-column-gap: 40px;
-}
-
-@media only screen and (max-width: 800px) {
-    .grid {
-        grid-template-columns: 1fr;
-    }
+    padding: 2rem;
 }
 
 .heading {
+    font-family: 'EconomicaItalic';
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.headingHowToHire {
     font-family: 'EconomicaItalic';
     font-size: 2rem;
     font-weight: normal;
@@ -24,4 +26,15 @@
     font-weight: 400;
     font-size: 1.2rem;
     color: #444;
+}
+
+@media only screen and (max-width: 800px) {
+    .grid {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .headingHowToHire {
+        margin-top: 0;
+    }
 }
