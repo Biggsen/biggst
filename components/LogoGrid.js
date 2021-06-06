@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const LogoGrid = ({ title, data }) => {
     return (
-        <>
+        <div>
             <h3>{title}</h3>
             <ul className={styles.grid}>
                 {data.map((logo) => (
@@ -13,7 +13,7 @@ const LogoGrid = ({ title, data }) => {
                 ))}
 
             </ul>
-        </>
+        </div>
     )
 }
 
