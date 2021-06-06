@@ -4,7 +4,7 @@ import Image from 'next/image'
 const LogoGrid = ({ title, data }) => {
     return (
         <div>
-            <h3>{title}</h3>
+            <h3 className={styles.heading}>{title}</h3>
             <ul className={styles.grid}>
                 {data.map((logo) => (
                     <li className={styles.item}>

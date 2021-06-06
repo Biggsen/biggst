@@ -6,3 +6,9 @@
     margin: 0;
     padding: 0;
 }
+
+.heading {
+    font-family: 'EconomicaItalic';
+    font-size: 2rem;
+    font-weight: normal;
+}
