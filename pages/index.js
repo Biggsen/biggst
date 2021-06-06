@@ -22,15 +22,15 @@ export default function Home() {
       <LogoGrid title="I've worked for" data={workedFor} />
       <Testimonial />
       <div>
-        <h3>How to hire me</h3>
-        <p>
+        <h3 className={styles.heading}>How to hire me</h3>
+        <p className={styles.paragraph}>
           Email me at <a href="mailto:biggs@devillion.com">biggs@devillion.com</a><br />
           Tweet me at <a href="https://twitter.com/biggs_t" target="_blank">@biggs_t</a><br />
           Send me a message on <a href="//uk.linkedin.com/in/biggsthorarensen/" target="_blank">LinkedIn</a>
         </p>
 
-        <h3>Online CV</h3>
-        <p>
+        <h3 className={styles.heading}>Online CV</h3>
+        <p className={styles.paragraph}>
         <a href="https://docs.google.com/document/d/1tItByB6kCq7_83ybumSa6-hiAhhFO6ELBQl1WeBxPf8/edit?usp=sharing" target="_blank">View my latest CV on Google Docs</a>
         </p>
       </div>

@@ -10,3 +10,18 @@
         grid-template-columns: 1fr;
     }
 }
+
+.heading {
+    font-family: 'EconomicaItalic';
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.paragraph {
+    margin-top: 0;
+    font-family: 'Rambla';
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #444;
+}
