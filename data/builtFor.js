@@ -1,5 +1,25 @@
 export const builtFor = [
     {
+        image: 'pins.png',
+        name: 'Planning Inspectorate'
+    },
+    {
+        image: 'runa.png',
+        name: 'Runa'
+    },
+    {
+        image: 'cg.png',
+        name: 'Canaccord Genuity'
+    },
+    {
+        image: 'fandb.png',
+        name: 'Farrow & Ball'
+    },
+    {
+        image: 'ons.png',
+        name: 'Office for National Statistics'
+    },
+    {
         image: 'dwp.png',
         name: 'Department for Work and Pensions'
     },

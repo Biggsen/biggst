@@ -1,5 +1,9 @@
 export const workedFor = [
     {
+        image: 'kandc.png',
+        name: 'Kin + Carta'
+    },
+    {
         image: 'deloitte.png',
         name: 'Deloitte'
     },
